@@ -1,6 +1,5 @@
 
 console.log("running");
-
 const convert = a =>{
     var vocal = a,i,u,e,o;
     var count = a.length;
@@ -19,10 +18,11 @@ for(var x = 0 ; x<stringindex.length ; x++ ){
     console.log(stringindex[x]);
     string[stringindex[x]] = 'i';
     }
-    return string;
+    return string.toString();
 }
  
-console.log(convert("budi"));
+console.log(convert("buuuuuudiiiii"));
+
 const hapus = () =>{
     var data = [23, 45, 67, 90, 23, 1, 6, 90, 12, 43, 90, 67];
     var cek = [];
@@ -105,7 +105,7 @@ const book = x =>{
     }
     
 } 
-// console.log(book("6Jx")); 
+// console.log(book("6J")); 
 
 // query case 9 
 // SELECT * user,profile,jabatan ; 
