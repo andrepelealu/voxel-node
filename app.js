@@ -14,14 +14,15 @@ const convert = a =>{
             stringindex.push(i);
         }    
     }
+    
 for(var x = 0 ; x<stringindex.length ; x++ ){
-    console.log(x);
-    string[x] = 'i';
+    console.log(stringindex[x]);
+    string[stringindex[x]] = 'i';
     }
     return string;
 }
  
-console.log(convert("gula"));
+console.log(convert("budi"));
 const hapus = () =>{
     var data = [23, 45, 67, 90, 23, 1, 6, 90, 12, 43, 90, 67];
     var cek = [];
